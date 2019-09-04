@@ -96,6 +96,374 @@ type InnerValue struct {
 	Value string `json:"value"`
 }
 
+type Approvals struct {
+	Result struct {
+		UINotification []interface{} `json:"$$uiNotification"`
+		Theme          struct {
+			FooterFixed bool `json:"footer_fixed"`
+			Footer      struct {
+			} `json:"footer"`
+			FooterDv     string `json:"footer_dv"`
+			NavbarFixed  bool   `json:"navbar_fixed"`
+			SysTags      string `json:"sys_tags"`
+			HeaderDv     string `json:"header_dv"`
+			SysClassName string `json:"sys_class_name"`
+			CSSVariables string `json:"css_variables"`
+			SysID        string `json:"sys_id"`
+			Name         string `json:"name"`
+			Header       struct {
+				Template string `json:"template"`
+				CSS      string `json:"css"`
+				Data     struct {
+					ConnectSupportQueueID interface{} `json:"connect_support_queue_id"`
+					LoginPage             interface{} `json:"login_page"`
+					Menu                  struct {
+					} `json:"menu"`
+					LoginWidget struct {
+						Template string `json:"template"`
+						CSS      string `json:"css"`
+						Data     struct {
+							UsernameMsg     string      `json:"usernameMsg"`
+							IsLoggedIn      bool        `json:"is_logged_in"`
+							PageURI         string      `json:"pageURI"`
+							ErrorMsg2       string      `json:"errorMsg2"`
+							ForgetMe        bool        `json:"forgetMe"`
+							PasswordMsg     string      `json:"passwordMsg"`
+							MultissoEnabled bool        `json:"multisso_enabled"`
+							DefaultIdp      interface{} `json:"default_idp"`
+							ErrorMsg        string      `json:"errorMsg"`
+							ForgetMeDefault bool        `json:"forgetMeDefault"`
+						} `json:"data"`
+						RectangleID  string        `json:"rectangle_id"`
+						OptionSchema string        `json:"option_schema"`
+						SysClassName string        `json:"sys_class_name"`
+						Dependencies []interface{} `json:"dependencies"`
+						SysID        string        `json:"sys_id"`
+						Public       bool          `json:"public"`
+						ClientScript string        `json:"client_script"`
+						Name         string        `json:"name"`
+						Options      struct {
+							Color          string `json:"color"`
+							SpColumnDv     string `json:"sp_column_dv"`
+							Active         bool   `json:"active"`
+							ColorDv        string `json:"color_dv"`
+							Title          string `json:"title"`
+							SysTags        string `json:"sys_tags"`
+							SysClassName   string `json:"sys_class_name"`
+							SizeDv         string `json:"size_dv"`
+							SpWidgetDv     string `json:"sp_widget_dv"`
+							Size           string `json:"size"`
+							SysName        string `json:"sys_name"`
+							ID             string `json:"id"`
+							SpWidget       string `json:"sp_widget"`
+							SysClassNameDv string `json:"sys_class_name_dv"`
+							Order          int    `json:"order"`
+						} `json:"options"`
+						Rectangle struct {
+							Color          string `json:"color"`
+							SpColumnDv     string `json:"sp_column_dv"`
+							Active         bool   `json:"active"`
+							ColorDv        string `json:"color_dv"`
+							Title          string `json:"title"`
+							SysTags        string `json:"sys_tags"`
+							SysClassName   string `json:"sys_class_name"`
+							SizeDv         string `json:"size_dv"`
+							SpWidgetDv     string `json:"sp_widget_dv"`
+							Size           string `json:"size"`
+							SysName        string `json:"sys_name"`
+							ID             string `json:"id"`
+							SpWidget       string `json:"sp_widget"`
+							SysClassNameDv string `json:"sys_class_name_dv"`
+							Order          int    `json:"order"`
+						} `json:"rectangle"`
+						ID           string        `json:"id"`
+						FieldList    string        `json:"field_list"`
+						ControllerAs string        `json:"controller_as"`
+						Providers    []interface{} `json:"providers"`
+						ServerTime   string        `json:"_server_time"`
+					} `json:"loginWidget"`
+					Typeahead struct {
+						Template    string `json:"template"`
+						NgTemplates struct {
+							SpTypeaheadHTML      string `json:"sp-typeahead.html"`
+							SpTypeaheadPopupHTML string `json:"sp-typeahead-popup.html"`
+						} `json:"ngTemplates"`
+						CSS  string `json:"css"`
+						Data struct {
+							NavigationMsg      string      `json:"navigationMsg"`
+							SearchMsg          string      `json:"searchMsg"`
+							SearchType         interface{} `json:"searchType"`
+							Limit              int         `json:"limit"`
+							TypeaheadTemplates struct {
+								SpTypeaheadScHTML          string `json:"sp-typeahead-sc.html"`
+								SpTypeaheadScItserviceHTML string `json:"sp-typeahead-sc_itservice.html"`
+							} `json:"typeaheadTemplates"`
+							Results   []interface{} `json:"results"`
+							ResultMsg string        `json:"resultMsg"`
+						} `json:"data"`
+						Link         string        `json:"link"`
+						RectangleID  string        `json:"rectangle_id"`
+						OptionSchema string        `json:"option_schema"`
+						SysClassName string        `json:"sys_class_name"`
+						Dependencies []interface{} `json:"dependencies"`
+						SysID        string        `json:"sys_id"`
+						Public       bool          `json:"public"`
+						ClientScript string        `json:"client_script"`
+						Name         string        `json:"name"`
+						Options      struct {
+							Color          string `json:"color"`
+							SpColumnDv     string `json:"sp_column_dv"`
+							Active         bool   `json:"active"`
+							ColorDv        string `json:"color_dv"`
+							Title          string `json:"title"`
+							SysTags        string `json:"sys_tags"`
+							SysClassName   string `json:"sys_class_name"`
+							SizeDv         string `json:"size_dv"`
+							Glyph          string `json:"glyph"`
+							SpWidgetDv     string `json:"sp_widget_dv"`
+							Size           string `json:"size"`
+							SysName        string `json:"sys_name"`
+							ID             string `json:"id"`
+							SpWidget       string `json:"sp_widget"`
+							SysClassNameDv string `json:"sys_class_name_dv"`
+							Order          int    `json:"order"`
+						} `json:"options"`
+						Rectangle struct {
+							Color          string `json:"color"`
+							SpColumnDv     string `json:"sp_column_dv"`
+							Active         bool   `json:"active"`
+							ColorDv        string `json:"color_dv"`
+							Title          string `json:"title"`
+							SysTags        string `json:"sys_tags"`
+							SysClassName   string `json:"sys_class_name"`
+							SizeDv         string `json:"size_dv"`
+							Glyph          string `json:"glyph"`
+							SpWidgetDv     string `json:"sp_widget_dv"`
+							Size           string `json:"size"`
+							SysName        string `json:"sys_name"`
+							ID             string `json:"id"`
+							SpWidget       string `json:"sp_widget"`
+							SysClassNameDv string `json:"sys_class_name_dv"`
+							Order          int    `json:"order"`
+						} `json:"rectangle"`
+						ID           string        `json:"id"`
+						FieldList    string        `json:"field_list"`
+						ControllerAs string        `json:"controller_as"`
+						Providers    []interface{} `json:"providers"`
+						ServerTime   string        `json:"_server_time"`
+					} `json:"typeahead"`
+				} `json:"data"`
+				Link         string        `json:"link"`
+				OptionSchema string        `json:"option_schema"`
+				SysClassName string        `json:"sys_class_name"`
+				Dependencies []interface{} `json:"dependencies"`
+				SysID        string        `json:"sys_id"`
+				Public       bool          `json:"public"`
+				ClientScript string        `json:"client_script"`
+				Name         string        `json:"name"`
+				Options      struct {
+					SpWidgetDv string `json:"sp_widget_dv"`
+					SpColumnDv string `json:"sp_column_dv"`
+					Active     bool   `json:"active"`
+					SysTags    string `json:"sys_tags"`
+					Order      int    `json:"order"`
+				} `json:"options"`
+				Rectangle struct {
+					SpWidgetDv string `json:"sp_widget_dv"`
+					SpColumnDv string `json:"sp_column_dv"`
+					Active     bool   `json:"active"`
+					SysTags    string `json:"sys_tags"`
+					Order      int    `json:"order"`
+				} `json:"rectangle"`
+				ID           string        `json:"id"`
+				FieldList    string        `json:"field_list"`
+				ControllerAs string        `json:"controller_as"`
+				Providers    []interface{} `json:"providers"`
+				ServerTime   string        `json:"_server_time"`
+			} `json:"header"`
+			SysName        string `json:"sys_name"`
+			SysClassNameDv string `json:"sys_class_name_dv"`
+		} `json:"theme"`
+		Containers []struct {
+			SysID              string `json:"sys_id"`
+			BootstrapAlt       bool   `json:"bootstrap_alt"`
+			Subheader          bool   `json:"subheader"`
+			Background         string `json:"background"`
+			Width              string `json:"width"`
+			ContainerClassName string `json:"container_class_name"`
+			Title              string `json:"title"`
+			Rows               []struct {
+				SysID   string `json:"sys_id"`
+				Columns []struct {
+					SysID       string        `json:"sys_id"`
+					SizeClasses string        `json:"size_classes"`
+					Rows        []interface{} `json:"rows"`
+					Widgets     []struct {
+						SysID  string `json:"sys_id"`
+						Widget struct {
+							Template string `json:"template"`
+							CSS      string `json:"css"`
+							Data     struct {
+							} `json:"data"`
+							RectangleID  string        `json:"rectangle_id"`
+							OptionSchema string        `json:"option_schema"`
+							SysClassName string        `json:"sys_class_name"`
+							Dependencies []interface{} `json:"dependencies"`
+							SysID        string        `json:"sys_id"`
+							Public       bool          `json:"public"`
+							ClientScript string        `json:"client_script"`
+							Name         string        `json:"name"`
+							Options      struct {
+								Color          string `json:"color"`
+								SpColumn       string `json:"sp_column"`
+								SpColumnDv     string `json:"sp_column_dv"`
+								Active         bool   `json:"active"`
+								ColorDv        string `json:"color_dv"`
+								SysTags        string `json:"sys_tags"`
+								SysClassName   string `json:"sys_class_name"`
+								SizeDv         string `json:"size_dv"`
+								SpWidgetDv     string `json:"sp_widget_dv"`
+								Size           string `json:"size"`
+								SpWidget       string `json:"sp_widget"`
+								SysClassNameDv string `json:"sys_class_name_dv"`
+								Order          int    `json:"order"`
+							} `json:"options"`
+							Rectangle struct {
+								Color          string `json:"color"`
+								SpColumn       string `json:"sp_column"`
+								SpColumnDv     string `json:"sp_column_dv"`
+								Active         bool   `json:"active"`
+								ColorDv        string `json:"color_dv"`
+								SysTags        string `json:"sys_tags"`
+								SysClassName   string `json:"sys_class_name"`
+								SizeDv         string `json:"size_dv"`
+								SpWidgetDv     string `json:"sp_widget_dv"`
+								Size           string `json:"size"`
+								SpWidget       string `json:"sp_widget"`
+								SysClassNameDv string `json:"sys_class_name_dv"`
+								Order          int    `json:"order"`
+							} `json:"rectangle"`
+							ID           string        `json:"id"`
+							FieldList    string        `json:"field_list"`
+							ControllerAs string        `json:"controller_as"`
+							Providers    []interface{} `json:"providers"`
+							ServerTime   string        `json:"_server_time"`
+						} `json:"widget"`
+						Title string `json:"title"`
+					} `json:"widgets"`
+					ClassName string `json:"class_name"`
+					Order     int    `json:"order"`
+				} `json:"columns"`
+				ClassName string `json:"class_name"`
+				Order     int    `json:"order"`
+			} `json:"rows"`
+			ClassName string `json:"class_name"`
+			Order     int    `json:"order"`
+		} `json:"containers"`
+		Page struct {
+			SysID          string `json:"sys_id"`
+			Internal       bool   `json:"internal"`
+			CSS            string `json:"css"`
+			Public         bool   `json:"public"`
+			Draft          bool   `json:"draft"`
+			SysName        string `json:"sys_name"`
+			ID             string `json:"id"`
+			Title          string `json:"title"`
+			SysTags        string `json:"sys_tags"`
+			SysClassName   string `json:"sys_class_name"`
+			SysClassNameDv string `json:"sys_class_name_dv"`
+		} `json:"page"`
+		Portal struct {
+			SpRectangleMenu       string `json:"sp_rectangle_menu"`
+			SqandaKnowledgeBaseDv string `json:"sqanda_knowledge_base_dv"`
+			ScCategoryPageDv      string `json:"sc_category_page_dv"`
+			Icon                  string `json:"icon"`
+			ScCatalog             string `json:"sc_catalog"`
+			KbKnowledgePageDv     string `json:"kb_knowledge_page_dv"`
+			Title                 string `json:"title"`
+			ScCatalogPage         string `json:"sc_catalog_page"`
+			SysClassName          string `json:"sys_class_name"`
+			SysID                 string `json:"sys_id"`
+			ThemeDv               string `json:"theme_dv"`
+			Default               bool   `json:"default"`
+			HomepageDv            string `json:"homepage_dv"`
+			NotfoundPageDv        string `json:"notfound_page_dv"`
+			ScCatalogDv           string `json:"sc_catalog_dv"`
+			Logo                  string `json:"logo"`
+			SysName               string `json:"sys_name"`
+			SpRectangleMenuDv     string `json:"sp_rectangle_menu_dv"`
+			Theme                 string `json:"theme"`
+			ScCatalogPageDv       string `json:"sc_catalog_page_dv"`
+			SysClassNameDv        string `json:"sys_class_name_dv"`
+			QuickStartConfig      string `json:"quick_start_config"`
+			KbKnowledgePage       string `json:"kb_knowledge_page"`
+			SysTags               string `json:"sys_tags"`
+			LoginPageDv           string `json:"login_page_dv"`
+			SpChatQueueDv         string `json:"sp_chat_queue_dv"`
+			CSSVariables          string `json:"css_variables"`
+			NotfoundPage          string `json:"notfound_page"`
+			KbKnowledgeBaseDv     string `json:"kb_knowledge_base_dv"`
+			KbKnowledgeBase       string `json:"kb_knowledge_base"`
+			LoginPage             string `json:"login_page"`
+			URLSuffix             string `json:"url_suffix"`
+			Homepage              string `json:"homepage"`
+		} `json:"portal"`
+		User struct {
+			CalendarIntegration     string `json:"calendar_integration"`
+			LastLoginTime           string `json:"last_login_time"`
+			LastLoginDevice         string `json:"last_login_device"`
+			UBuOwnerGroupDv         string `json:"u_bu_owner_group_dv"`
+			UCountryDv              string `json:"u_country_dv"`
+			Notification            string `json:"notification"`
+			SysDomain               string `json:"sys_domain"`
+			Vip                     bool   `json:"vip"`
+			LastLogin               string `json:"last_login"`
+			LoggedIn                bool   `json:"logged_in"`
+			CanDebug                bool   `json:"can_debug"`
+			Active                  bool   `json:"active"`
+			UInfonowNotification    string `json:"u_infonow_notification"`
+			CalendarIntegrationDv   string `json:"calendar_integration_dv"`
+			UManagerLevelDv         string `json:"u_manager_level_dv"`
+			TimeSheetPolicyDv       string `json:"time_sheet_policy_dv"`
+			LocationDv              string `json:"location_dv"`
+			Name                    string `json:"name"`
+			CanDebugAdmin           bool   `json:"can_debug_admin"`
+			UBlockUpdates           bool   `json:"u_block_updates"`
+			PasswordNeedsReset      bool   `json:"password_needs_reset"`
+			DefaultPerspectiveDv    string `json:"default_perspective_dv"`
+			UManagerLevel           string `json:"u_manager_level"`
+			ScheduleDv              string `json:"schedule_dv"`
+			UserName                string `json:"user_name"`
+			FailedAttempts          int    `json:"failed_attempts"`
+			EduStatus               string `json:"edu_status"`
+			SysDomainDv             string `json:"sys_domain_dv"`
+			EduStatusDv             string `json:"edu_status_dv"`
+			SysClassName            string `json:"sys_class_name"`
+			SysID                   string `json:"sys_id"`
+			DepartmentDv            string `json:"department_dv"`
+			InternalIntegrationUser bool   `json:"internal_integration_user"`
+			ManagerDv               string `json:"manager_dv"`
+			FirstName               string `json:"first_name"`
+			SysClassNameDv          string `json:"sys_class_name_dv"`
+			NotificationDv          string `json:"notification_dv"`
+			UInfonowNotificationDv  string `json:"u_infonow_notification_dv"`
+			Manager                 string `json:"manager"`
+			UIsManager              bool   `json:"u_is_manager"`
+			LockedOut               bool   `json:"locked_out"`
+			Auditor                 bool   `json:"auditor"`
+			LastName                string `json:"last_name"`
+			Photo                   string `json:"photo"`
+			SysTags                 string `json:"sys_tags"`
+			CompanyDv               string `json:"company_dv"`
+			LdapServerDv            string `json:"ldap_server_dv"`
+			ULastUpdatedFromSource  string `json:"u_last_updated_from_source"`
+			BuildingDv              string `json:"building_dv"`
+			URolesSuspended         bool   `json:"u_roles_suspended"`
+			CostCenterDv            string `json:"cost_center_dv"`
+		} `json:"user"`
+	} `json:"result"`
+}
+
 type ChangeRequest struct {
 	Status                   string     `json:"__status,omitempty"`
 	Active                   bool       `json:"active,string,omitempty"`
@@ -106,6 +474,7 @@ type ChangeRequest struct {
 	ApprovalSet              string     `json:"approval_set,omitempty"`
 	AssignedTo               string     `json:"assigned_to,omitempty"`
 	AssignmentGroup          InnerValue `json:"assignment_group,omitempty"`
+	User                     InnerValue `json:"user,omitempty"`
 	BackoutPlan              string     `json:"backout_plan,omitempty"`
 	BusinessDuration         string     `json:"business_duration,omitempty"`
 	BusinessService          string     `json:"business_service,omitempty"`
@@ -115,6 +484,8 @@ type ChangeRequest struct {
 	CabRequired              bool       `json:"cab_required,string,omitempty"`
 	CalendarDuration         string     `json:"calendar_duration,omitempty"`
 	Category                 string     `json:"category,omitempty"`
+	UserName                 string     `json:"user_name,omitempty"`
+	CatItem                  InnerValue `json:"cat_item,omitempty"`
 	ChangePlan               string     `json:"change_plan,omitempty"`
 	CloseCode                string     `json:"close_code,omitempty"`
 	CloseNotes               string     `json:"close_notes,omitempty"`
@@ -138,6 +509,7 @@ type ChangeRequest struct {
 	Location                 string     `json:"location,omitempty"`
 	MadeSLA                  bool       `json:"made_sla,string,omitempty"`
 	Number                   string     `json:"number,omitempty"`
+	Group                    InnerValue `json:"group,omitempty"`
 	OnHold                   bool       `json:"on_hold,string,omitempty"`
 	OnHoldReason             string     `json:"on_hold_reason,omitempty"`
 	OpenedBy                 string     `json:"opened_by,omitempty"`
@@ -177,6 +549,7 @@ type ChangeRequest struct {
 	WorkStart                string     `json:"work_start,omitempty"`
 	FollowUp                 string     `json:"follow_up,omitempty"`
 	Identifier               string     `json:"identifier,omitempty,omitempty"`
+	ClosedAt                 string     `json:"closed_at,omitempty"`
 	Name                     string     `json:"name,omitempty"`
 }
 
@@ -191,13 +564,49 @@ type ChangeRequest struct {
 //StartDate                SNTime      `json:"start_date,omitempty"`
 //OpenedAt                 SNTime      `json:"opened_at,omitempty"`
 //Impact                   json.Number `json:"impact,omitempty"`
-//ClosedAt                 SNTime      `json:"closed_at,omitempty"`
 //CabDate                  SNTime      `json:"cab_date,omitempty"`
 //DueDate                  SNTime      `json:"due_date,omitempty"`
 //EndDate                  SNTime      `json:"end_date,omitempty"`
 //Escalation               json.Number `json:"escalation,omitempty"`
 //ExpectedStart            SNTime      `json:"expected_start,omitempty"`
 //Priority                 json.Number `json:"priority,omitempty"`
+
+type GlobalSearch struct {
+	Raw    []byte `json:"-"`
+	Result struct {
+		Groups []struct {
+			Description string `json:"description"`
+			Tables      []struct {
+				Filter         string `json:"filter"`
+				Label          string `json:"label"`
+				Name           string `json:"name"`
+				ID             string `json:"id"`
+				ConditionQuery string `json:"condition_query"`
+				LabelPlural    string `json:"label_plural"`
+			} `json:"tables"`
+			Name          string `json:"name"`
+			ID            string `json:"id"`
+			ResultCount   int    `json:"result_count"`
+			SearchResults []struct {
+				Records []interface{} `json:"records"`
+				Label   string        `json:"label"`
+				Name    string        `json:"name"`
+				Fields  []struct {
+					Label       string `json:"label"`
+					Name        string `json:"name"`
+					Type        string `json:"type"`
+					LabelPlural string `json:"label_plural"`
+					MaxLength   int    `json:"max_length"`
+					Reference   string `json:"reference,omitempty"`
+				} `json:"fields"`
+				Query         string `json:"query"`
+				LabelPlural   string `json:"label_plural"`
+				RecordCount   int    `json:"record_count"`
+				AllResultsURL string `json:"all_results_url"`
+			} `json:"search_results"`
+		} `json:"groups"`
+	} `json:"result"`
+}
 
 type Logindata struct {
 	Url string
@@ -241,6 +650,102 @@ func (client Logindata) GetTable(table string, limit int, params string) (*multi
 	// Errors occur some places
 	parsedRet := new(multiChange)
 	_ = json.Unmarshal(ret.Bytes(), parsedRet)
+	parsedRet.Raw = ret.Bytes()
+
+	return parsedRet, nil
+}
+
+// Replaces grequests for inner requests
+func (client Logindata) GlobalSearchGet(url string) (*GlobalSearch, error) {
+	ret, err := grequests.Get(url, &client.Ro)
+
+	if err != nil {
+		return nil, err
+	}
+
+	// Errors occur some places
+	parsedRet := new(GlobalSearch)
+	_ = json.Unmarshal(ret.Bytes(), parsedRet)
+	parsedRet.Raw = ret.Bytes()
+
+	return parsedRet, nil
+}
+
+// Replaces grequests for inner requests
+func (client Logindata) GetApprovals(url string) (*Approvals, error) {
+	ret, err := grequests.Get(url, &client.Ro)
+
+	if err != nil {
+		return nil, err
+	}
+
+	// Errors occur some places
+	parsedRet := new(Approvals)
+	err = json.Unmarshal(ret.Bytes(), parsedRet)
+	if err != nil {
+		return parsedRet, err
+	}
+	//parsedRet.Raw = ret.Bytes()
+
+	return parsedRet, nil
+}
+
+// Replaces grequests for inner requests
+func (client Logindata) Get(url string) (*resultWrapper, error) {
+	ret, err := grequests.Get(url, &client.Ro)
+
+	if err != nil {
+		return nil, err
+	}
+
+	// Errors occur some places
+	parsedRet := new(resultWrapper)
+	_ = json.Unmarshal(ret.Bytes(), parsedRet)
+	parsedRet.Raw = ret.Bytes()
+
+	return parsedRet, nil
+}
+
+// Replaces grequests for inner requests
+func (client Logindata) Patch(url string, data []byte) (*resultWrapper, error) {
+	// Set data
+	client.Ro.JSON = data
+
+	ret, err := grequests.Patch(url, &client.Ro)
+	fmt.Println(ret)
+
+	if err != nil {
+		return nil, err
+	}
+
+	// Errors occur some places
+	parsedRet := new(resultWrapper)
+	err = json.Unmarshal(ret.Bytes(), parsedRet)
+	if err != nil {
+		return parsedRet, err
+	}
+	parsedRet.Raw = ret.Bytes()
+
+	return parsedRet, nil
+}
+
+// Replaces grequests for inner requests
+func (client Logindata) Put(url string, data []byte) (*resultWrapper, error) {
+	// Set data
+	client.Ro.JSON = data
+
+	ret, err := grequests.Put(url, &client.Ro)
+
+	if err != nil {
+		return nil, err
+	}
+
+	// Errors occur some places
+	parsedRet := new(resultWrapper)
+	err = json.Unmarshal(ret.Bytes(), parsedRet)
+	if err != nil {
+		return parsedRet, err
+	}
 	parsedRet.Raw = ret.Bytes()
 
 	return parsedRet, nil
